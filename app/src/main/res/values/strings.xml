@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Email</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="cc">cc</string>
+    <string name="bcc">bcc</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="clear">CLEAR</string>
+    <string name="preview">PREVIEW</string>
+    <string name="previewText">Preview</string>
+    <string name="send">SEND</string>
+    <string name="edit">EDIT</string>
+    <string name="ZYR">Developed by Yiran Zhao</string>
+
+    <string name="fromHint">Enter your email address</string>
+    <string name="toHint">Enter the recipient\'s email address</string>
+    <string name="ccHint">Enter the cc\'s email address</string>
+    <string name="bccHint">Enter the bcc\'s email address</string>
+    <string name="subjectHint">Enter the subject</string>
+    <string name="messageHint">Enter the message</string>
+</resources>

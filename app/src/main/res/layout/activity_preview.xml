@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".PreviewActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/previewText"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack"/>
+
+        <TextView
+                android:id="@+id/previewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/preview"
+                android:textSize="14sp"
+                android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/previewText"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/editButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="48dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="@string/edit"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp"/>
+
+            <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/sendButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="48dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="@string/send"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
